@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="gallery">
+    <div class="image-container">
+      <img id="current-image" src="image1.jpg" alt="Gallery Image">
+    </div>
+    <div class="thumbnails">
+      <img src="https://picsum.photos/seed/1/600/400" alt="Thumbnail 1" onclick="changeImage('image1.jpg')">
+      <img src="https://picsum.photos/seed/1/601/401" alt="Thumbnail 2" onclick="changeImage('image2.jpg')">
+      <img src="https://picsum.photos/seed/1.602/402" alt="Thumbnail 3" onclick="changeImage('image3.jpg')">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
